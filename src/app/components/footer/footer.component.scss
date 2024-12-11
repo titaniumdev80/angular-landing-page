@@ -1,0 +1,35 @@
+footer {
+  background-image: url("../../../assets/images/footer-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 239px;
+  .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+    span {
+      color: #F5F6FA;
+      font-size: 50px;
+      line-height: 1.5;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    @media (max-width: 1280px) {
+      span {
+        left: 45px;
+        font-size: 36px;
+      }
+    }
+    @media (max-width: 640px) {
+      span {
+        max-width: 135px;
+        font-size: 18px;
+      }
+    }
+  }
+}
